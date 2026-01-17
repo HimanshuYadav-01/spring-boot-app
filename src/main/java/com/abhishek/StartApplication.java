@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "I have successfully built a Spring Boot application using Maven");
-        model.addAttribute("msg", "This application is dockerized and accessible via browser");
+        model.addAttribute("msg", "This application is dockerized by jenkins cicd pipline and using argocd it been deployed kubernetes");
         return "index";
     }
 

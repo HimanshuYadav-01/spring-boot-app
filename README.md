@@ -7,3 +7,7 @@ This is a simple Spring Boot MVC application dockerized and accessible via brows
 ```bash
 mvn clean package
 mvn spring-boot:run
+
+
+Access:
+http://localhost:8080
